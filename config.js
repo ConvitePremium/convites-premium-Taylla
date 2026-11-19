@@ -23,21 +23,21 @@ window.CONFIG = {
   // ----- IDENTIDADE DO CONVITE -------------------------------------------
   // Nome do aniversariante. Aparece no título da aba do navegador e nos
   // textos automáticos do convite.
-  nome: "Carieli",
+  nome: "Taylla",
 
   // ----- WHATSAPP (CONFIRMAR PRESENÇA) -----------------------------------
   // numero: DDI + DDD + número, SÓ DÍGITOS (sem +, espaço, parênteses ou traço).
   //         Ex.: 55 (Brasil) + 31 (DDD) + 985657116 -> "5531985657116"
   // mensagem: texto que já vem pré-preenchido quando a pessoa abre o WhatsApp.
   whatsapp: {
-    numero: "5511968861519",
-    mensagem: "Olá! Confirmo minha presença no aniversário da Carieli."
+    numero: "5511988112050",
+    mensagem: "Olá! Confirmo minha presença no aniversário da Taylla."
   },
 
   // ----- LOCALIZAÇÃO (BOTÃO MAPA) ----------------------------------------
   // Link completo do Google Maps. Abra o local no Maps, clique em "Compartilar"
   // -> "Copiar link" e cole aqui (mantenha as aspas).
-  mapa: "https://maps.app.goo.gl/D3WV6wtHwnibgdMD9",
+  mapa: "https://maps.app.goo.gl/X9gEUMwZKtAyFBV16",
 
   // ----- QUAIS TELAS APARECEM --------------------------------------------
   // video:     true  -> toca o vídeo (assets/video.mp4) depois da abertura.
@@ -49,7 +49,7 @@ window.CONFIG = {
     whatsapp: true,
     localizacao: true,
     presentes: true,
-    dresscode: false,
+    dresscode: true,
     manual: true,
     contagem: false
   },
@@ -60,8 +60,8 @@ window.CONFIG = {
   // chave: é exatamente o texto que será copiado quando o convidado clicar.
   // posicao: ajuste pelo editor visual (?editor=1), escolhendo “PIX (copiar chave)”.
   pix: {
-    ativo: false,
-    chave: "000",
+    ativo: true,
+    chave: "24272177869",
     posicao: {"left":23.34312475039936,"top":50.99654886232034,"width":53.32267434604633,"height":4.977906573192977}
   },
 
@@ -102,6 +102,7 @@ window.CONFIG = {
         confirm: { left:28.516778715855363, top:59.890661061961694, width:15.963035699920129, height:8.57238650880756 },
         map: { left:55.826596631349275, top:60.12075864907507, width:15.611963461541478, height:8.522989476077747 },
         gift: { left:28.837639763258945, top:73.34357847308002, width:16.091044953075077, height:8.643484137471408 },
+        dress: { left:28.837639763258945, top:73.34357847308002, width:16.091044953075077, height:8.643484137471408 },
         manual: { left:55.41912501186119, top:73.45866029328671, width:16.29551467651757, height:8.528402317264716 }
   },
 
